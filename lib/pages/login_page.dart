@@ -23,12 +23,12 @@ class LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         child: SingleChildScrollView(
           child: Center(
             child: Column(
               children: [
-                Image.asset(Paths.signinUpImage, height: 280),
+                Image.asset(Paths.signinUpImage, height: 250),
                 Text(
                   AppStrings.loginTitle,
                   style: TextStyle(
@@ -122,7 +122,7 @@ class LoginPageState extends State<LoginPage> {
                           ),
                         ],
                       ),
-                      SizedBox(height: 80),
+                      SizedBox(height: 50),
                       CustomButton(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),

@@ -24,12 +24,12 @@ class RegisterPageState extends State<RegisterPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20),
+        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
         child: SingleChildScrollView(
           child: Center(
             child: Column(
               children: [
-                Image.asset(Paths.signinUpImage, height: 280),
+                Image.asset(Paths.signinUpImage, height: 250),
                 Text(
                   AppStrings.getStarted,
                   style: TextStyle(
@@ -131,51 +131,50 @@ class RegisterPageState extends State<RegisterPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           CustomCheckbox(),
-                          RichText(
-                            text: TextSpan(
-                              text: AppStrings.termsAndConditions.substring(
-                                0,
-                                37,
-                              ),
-                              style: TextStyle(
-                                color: Colors.black,
-                                fontFamily: "Mulish",
-                                fontWeight: FontWeight.w400,
-                                fontSize: 9.9,
-                              ),
-                              children: [
-                                TextSpan(
-                                  text: AppStrings.termsAndConditions.substring(
-                                    37,
-                                    42,
-                                  ),
-                                  style: TextStyle(
-                                    color: AppColors.checkboxColorButtonText,
-                                    overflow: TextOverflow.ellipsis,
-                                  ),
+                          Expanded(
+                            child: RichText(
+                              text: TextSpan(
+                                text: AppStrings.termsAndConditions.substring(
+                                  0,
+                                  37,
                                 ),
+                                style: TextStyle(
+                                  color: Colors.black,
+                                  fontFamily: "Mulish",
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 9.9,
+                                ),
+                                children: [
+                                  TextSpan(
+                                    text: AppStrings.termsAndConditions
+                                        .substring(37, 42),
+                                    style: TextStyle(
+                                      color: AppColors.checkboxColorButtonText,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
+                                  ),
 
-                                TextSpan(
-                                  text: AppStrings.termsAndConditions.substring(
-                                    42,
-                                    47,
+                                  TextSpan(
+                                    text: AppStrings.termsAndConditions
+                                        .substring(42, 47),
                                   ),
-                                ),
-                                TextSpan(
-                                  text: AppStrings.termsAndConditions.substring(
-                                    47,
-                                    AppStrings.termsAndConditions.length,
+                                  TextSpan(
+                                    text: AppStrings.termsAndConditions
+                                        .substring(
+                                          47,
+                                          AppStrings.termsAndConditions.length,
+                                        ),
+                                    style: TextStyle(
+                                      color: AppColors.checkboxColorButtonText,
+                                    ),
                                   ),
-                                  style: TextStyle(
-                                    color: AppColors.checkboxColorButtonText,
-                                  ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           ),
                         ],
                       ),
-                      SizedBox(height: 80),
+                      SizedBox(height: 50),
                       CustomButton(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),

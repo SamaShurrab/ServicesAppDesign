@@ -29,22 +29,25 @@ class CustomSectionServices extends StatelessWidget {
             servicesNameList[index]["servicesName"],
             style: TextStyle(
               fontWeight: FontWeight.w500,
-              fontSize: 20,
+              fontSize: 16,
               color: Colors.black,
             ),
           ),
-          subtitle: Text(
-            servicesNameList[index]["servicesDescripton"],
-            style: TextStyle(
-              fontWeight: FontWeight.w500,
-              fontSize: 17,
-              letterSpacing: -0.43,
-              color: AppColors.descriptionTextColor,
+          subtitle: Padding(
+            padding: const EdgeInsets.only(top: 5),
+            child: Text(
+              servicesNameList[index]["servicesDescripton"],
+              style: TextStyle(
+                fontWeight: FontWeight.w500,
+                fontSize: 14,
+                letterSpacing: -0.43,
+                color: AppColors.descriptionTextColor,
+              ),
             ),
           ),
           trailing: Icon(
             Icons.arrow_forward_rounded,
-            size: 40,
+            size: 30,
             color: Colors.black,
           ),
         ),
