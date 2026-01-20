@@ -72,10 +72,6 @@ This project is a collection of user interfaces (UI) designed using Flutter, inc
 -   rename
 
 
-### App Launcher Icon
-(assets/images/logo.png)
-
-
 ## 🎥 Application Demo
 
 🎬 https://youtu.be/ThWdYKO3GO0
@@ -83,27 +79,8 @@ This project is a collection of user interfaces (UI) designed using Flutter, inc
 
 ## Project Images 📸
 
-### 1. Splash Screen 
+(assets/images/screens.png) 
 
-![Splash Screen](assets/images/splashscreen.png) 
-
-### 2. Login Page & Register PAge 
-
-| Login Page | Register Page |
-| --- | --- |
-| ![Login Page](assets/images/loginscreen.png) | ![Register Page](assets/images/registerscreen.png) |
-
-### 3. Home Page
-
-| Home Page 1 | Home Page 2 |
-| --- | --- |
-| ![Home Page 1](assets/images/homepage1.png) | ![Home Page 1](assets/images/homepage2.png) |
-
-### 3. Services Page & Houses Page
-
-| Services Page | Houses Page |
-| --- | --- |
-| ![Services Page](assets/images/servicesscreen.png) | ![Houses Page](assets/images/housesscreen.png) |
 
 ## Project Structure 📁
 
