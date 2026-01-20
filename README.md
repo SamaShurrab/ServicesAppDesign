@@ -141,3 +141,9 @@ lib
  │   ├── splash_screen.dart
  └── main.dart
 ```
+## 📦 APK Download
+
+Download the latest version of **Services App Design** from GitHub Releases:
+
+👉 [Download Latest APK](https://github.com/SamaShurrab/ServicesAppDesign/releases/latest)
+
