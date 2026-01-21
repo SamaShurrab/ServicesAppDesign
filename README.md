@@ -71,16 +71,19 @@ This project is a collection of user interfaces (UI) designed using Flutter, inc
 -   flutter_launcher_icons
 -   rename
 
+---
 
 ## 🎥 Application Demo
 
 🎬 https://youtu.be/ThWdYKO3GO0
 
+---
 
 ## Project Images 📸
 
-(assets/images/screens.png) 
+![Project Images](assets/images/screens.png)
 
+---
 
 ## Project Structure 📁
 
@@ -118,6 +121,9 @@ lib
  │   ├── splash_screen.dart
  └── main.dart
 ```
+
+---
+
 ## 📦 APK Download
 
 Download the latest version of **Services App Design** from GitHub Releases:
