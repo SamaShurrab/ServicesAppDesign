@@ -75,7 +75,7 @@ This project is a collection of user interfaces (UI) designed using Flutter, inc
 
 ## 🎥 Application Demo
 
-🎬 https://youtu.be/ThWdYKO3GO0
+🎬 https://youtu.be/HjHszAoV650
 
 ---
 
